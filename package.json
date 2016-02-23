@@ -1,0 +1,42 @@
+{
+  "name": "gcd-react-components",
+  "version": "0.1.0",
+  "description": "Functional, flexible, and beautify components for react.",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node dev-tools/devServer.js",
+    "build": "NODE_ENV=production webpack --progress --config webpack.config.prod.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gregcdev/gdc-react-components.git"
+  },
+  "keywords": [
+    "react",
+    "react-component"
+  ],
+  "author": "Greg Chamberlain <gregcdev@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gregcdev/gdc-react-components/issues"
+  },
+  "homepage": "https://github.com/gregcdev/gdc-react-components#readme",
+  "devDependencies": {
+    "babel-core": "^6.5.2",
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.0",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.13.4",
+    "webpack": "^1.12.14",
+    "webpack-dev-middleware": "^1.5.1",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-hot-middleware": "^2.7.1"
+  },
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  }
+}
